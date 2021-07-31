@@ -1,0 +1,22 @@
+{
+    "data": {
+        "kpi": {
+            "month_generation": 468.1,
+            "pac": 2108.0,
+            "power": 98.3,
+            "total_power": 8381.8,
+            "day_income": 4.58,
+            "total_income": 2095.45,
+            "yield_rate": 0.25,
+            "currency": "USD"
+        },
+        "powercontrol_status": 0
+    },
+    "components": {
+        "para": "{\"model\":{\"PowerStationId\":\"436c56d2-6b8f-4db0-95d6-bfc9646d74c9\"}}",
+        "langVer": 110,
+        "timeSpan": 45,
+        "api": "http://au.semsportal.com:82/api/v1/PowerStation/GetMonitorDetailByPowerstationId",
+        "msgSocketAdr": null
+    }
+}
