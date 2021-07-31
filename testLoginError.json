@@ -1,0 +1,13 @@
+{
+    "hasError": false,
+    "code": 100002,
+    "msg": "The authorization has expired, please login again.",
+    "data": null,
+    "components": {
+        "para": null,
+        "langVer": 110,
+        "timeSpan": 0,
+        "api": "http://au.semsportal.com:82/api/v1/PowerStation/GetMonitorDetailByPowerstationId",
+        "msgSocketAdr": ""
+    }
+}
