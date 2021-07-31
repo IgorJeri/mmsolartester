@@ -108,11 +108,16 @@ express()
     // }
 
     let fileName = "testDataOnline.json";
-    if (counter % 10 == 0) {
-      //switch to an error result
-      console.log("----------- using error result -------------");
-      fileName = "testDataOffline.json";
-    }
+    //let fileName = "testDataOffline.json";
+    //let fileName = "testDataOnlineMassive.json";
+    //let fileName = "testDataEmpty.json";
+    //let fileName = "testDataOnlineBadData.json";
+
+    // if (counter % 10 == 0) {
+    //   //switch to an error result
+    //   console.log("----------- using error result -------------");
+    //   fileName = "testDataOffline.json";
+    // }
 
     // if (counter % 23 == 0) {
     //   //Reset the cookie
