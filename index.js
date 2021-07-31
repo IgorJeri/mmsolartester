@@ -161,12 +161,12 @@ express()
 
       cookie = Math.random().toString();
       cookie = cookie.substring(2, cookie.length);
-      cookie = "ASP.NET_SessionId=" + cookie;
+     
       //res.cookie(cookieName, cookie, { maxAge: 900000, httpOnly: true });
       console.log('cookie created successfully');
 
       res.setHeader('Content-Type', 'application/json');
-      res.setHeader('Set-Cookie', cookie);
+      res.setHeader('Set-Cookie', "ASP.NET_SessionId=" + cookie);
       console.log("cookie:" + cookie);
 
       res.send(data);
